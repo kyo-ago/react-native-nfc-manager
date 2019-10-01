@@ -158,7 +158,7 @@ RCT_EXPORT_MODULE()
             id<NFCISO7816Tag> iso7816Tag = [tag asNFCISO7816Tag];
             [tagInfo setObject:getHexString(iso7816Tag.identifier) forKey:@"id"];
             [tagInfo setObject:iso7816Tag.initialSelectedAID forKey:@"initialSelectedAID"];
-            [tagInfo setObject:iso7816Tag.historicalBytes forKey:@"historicalBytes"];
+//             [tagInfo setObject:iso7816Tag.historicalBytes forKey:@"historicalBytes"];
             [tagInfo setObject:iso7816Tag.applicationData forKey:@"applicationData"];
         } else if (tag.type == NFCTagTypeISO15693) {
             id<NFCISO15693Tag> iso15693Tag = [tag asNFCISO15693Tag];

@@ -1,3 +1,7 @@
+# このreporitoryはもう使われていないため削除予定です。
+
+https://graffer.atlassian.net/browse/PRODUCTS-3292
+
 # react-native-nfc-manager
 
 [![npm version](https://img.shields.io/npm/v/react-native-nfc-manager.svg?style=flat)](https://www.npmjs.com/package/react-native-nfc-manager)
